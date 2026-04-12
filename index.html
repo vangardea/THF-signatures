@@ -35,7 +35,7 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 32px auto 8px;
-    max-width: 420px;
+    max-width: 450px;
     display: block;
   }
   .sig-wrapper {
@@ -43,7 +43,7 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 22px 24px;
-    max-width: 420px;
+    max-width: 450px;
     margin: 0 auto 6px;
     overflow-x: auto;
   }
@@ -51,7 +51,7 @@
     font-size: 11px;
     color: #ccc;
     text-align: right;
-    max-width: 420px;
+    max-width: 450px;
     margin: 0 auto;
     display: block;
   }
@@ -90,9 +90,9 @@
 <p class="page-intro">Select your signature below, copy it, and paste it into Gmail &rarr; Settings &rarr; General &rarr; Signature.</p>
   <p class="person-label">Mira Oreck</p>
   <div class="sig-wrapper">
-    <table cellpadding="0" cellspacing="0" border="0" class="sig-table" style="border-collapse:collapse;font-family:Arial,Helvetica,sans-serif;">
+    <table cellpadding="0" cellspacing="0" border="0" class="sig-table" style="border-collapse:collapse;font-family:Arial,Helvetica,sans-serif;table-layout:fixed;width:100%;">
       <tr>
-        <td class="sig-name-col" style="padding-right:20px;vertical-align:middle;white-space:nowrap;">
+        <td class="sig-name-col" style="width:140px;padding-right:20px;vertical-align:middle;word-break:break-word;">
           <p style="margin:0 0 3px 0;font-size:15px;font-weight:bold;color:#1a1a1a;">Mira Oreck</p>
           <p style="margin:0;font-size:12px;color:#666666;line-height:1.4;">Executive Director</p>
         </td>
@@ -113,14 +113,14 @@
             </tr>
             <tr>
               <td style="padding:4px 9px 4px 0;vertical-align:middle;"><img src="data:image/png;base64,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" width="14" height="14" alt="" style="display:block;"></td>
-              <td style="padding:4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#1a1a1a;">2150, 745 Thurlow St, Vancouver, BC V6E 0C5</td>
+              <td style="padding:4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#1a1a1a;">2150, 745 Thurlow St,<br>Vancouver, BC V6E 0C5</td>
             </tr>
           </table>
         </td>
       </tr>
       <tr>
         <td colspan="3" class="land-cell" style="padding-top:14px;">
-          <div style="border-top:1px solid #15503b;margin-bottom:9px;font-size:0;">&nbsp;</div>
+          <div style="height:1.5px;background-color:#15503b;margin-bottom:9px;font-size:0;line-height:0;"><div style="border-top:1px solid #15503b;margin-bottom:9px;font-size:0;">&nbsp;</div>nbsp;</div>
           <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#888888;font-style:italic;margin:0;line-height:1.5;">We are located on the unceded territory of the xʷməθkʷəy̓əm (Musqueam), Sᵫwx̱wú7mesh (Squamish), and səlilwətaɬ (Tsleil-Waututh) peoples.</p>
         </td>
       </tr>
@@ -129,9 +129,9 @@
   <p class="copy-hint">&#8593; select, copy, paste into Gmail</p>
   <p class="person-label">Karen Tam Wu</p>
   <div class="sig-wrapper">
-    <table cellpadding="0" cellspacing="0" border="0" class="sig-table" style="border-collapse:collapse;font-family:Arial,Helvetica,sans-serif;">
+    <table cellpadding="0" cellspacing="0" border="0" class="sig-table" style="border-collapse:collapse;font-family:Arial,Helvetica,sans-serif;table-layout:fixed;width:100%;">
       <tr>
-        <td class="sig-name-col" style="padding-right:20px;vertical-align:middle;white-space:nowrap;">
+        <td class="sig-name-col" style="width:140px;padding-right:20px;vertical-align:middle;word-break:break-word;">
           <p style="margin:0 0 3px 0;font-size:15px;font-weight:bold;color:#1a1a1a;">Karen Tam Wu</p>
           <p style="margin:0;font-size:12px;color:#666666;line-height:1.4;">Director,<br>Nature &amp; Climate</p>
         </td>
@@ -152,14 +152,14 @@
             </tr>
             <tr>
               <td style="padding:4px 9px 4px 0;vertical-align:middle;"><img src="data:image/png;base64,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" width="14" height="14" alt="" style="display:block;"></td>
-              <td style="padding:4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#1a1a1a;">2150, 745 Thurlow St, Vancouver, BC V6E 0C5</td>
+              <td style="padding:4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#1a1a1a;">2150, 745 Thurlow St,<br>Vancouver, BC V6E 0C5</td>
             </tr>
           </table>
         </td>
       </tr>
       <tr>
         <td colspan="3" class="land-cell" style="padding-top:14px;">
-          <div style="border-top:1px solid #15503b;margin-bottom:9px;font-size:0;">&nbsp;</div>
+          <div style="height:1.5px;background-color:#15503b;margin-bottom:9px;font-size:0;line-height:0;"><div style="border-top:1px solid #15503b;margin-bottom:9px;font-size:0;">&nbsp;</div>nbsp;</div>
           <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#888888;font-style:italic;margin:0;line-height:1.5;">We are located on the unceded territory of the xʷməθkʷəy̓əm (Musqueam), Sᵫwx̱wú7mesh (Squamish), and səlilwətaɬ (Tsleil-Waututh) peoples.</p>
         </td>
       </tr>
@@ -168,9 +168,9 @@
   <p class="copy-hint">&#8593; select, copy, paste into Gmail</p>
   <p class="person-label">Estefania Duran</p>
   <div class="sig-wrapper">
-    <table cellpadding="0" cellspacing="0" border="0" class="sig-table" style="border-collapse:collapse;font-family:Arial,Helvetica,sans-serif;">
+    <table cellpadding="0" cellspacing="0" border="0" class="sig-table" style="border-collapse:collapse;font-family:Arial,Helvetica,sans-serif;table-layout:fixed;width:100%;">
       <tr>
-        <td class="sig-name-col" style="padding-right:20px;vertical-align:middle;white-space:nowrap;">
+        <td class="sig-name-col" style="width:140px;padding-right:20px;vertical-align:middle;word-break:break-word;">
           <p style="margin:0 0 3px 0;font-size:15px;font-weight:bold;color:#1a1a1a;">Estefania Duran</p>
           <p style="margin:0;font-size:12px;color:#666666;line-height:1.4;">Senior Program Manager,<br>Gender Justice</p>
         </td>
@@ -191,14 +191,14 @@
             </tr>
             <tr>
               <td style="padding:4px 9px 4px 0;vertical-align:middle;"><img src="data:image/png;base64,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" width="14" height="14" alt="" style="display:block;"></td>
-              <td style="padding:4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#1a1a1a;">2150, 745 Thurlow St, Vancouver, BC V6E 0C5</td>
+              <td style="padding:4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#1a1a1a;">2150, 745 Thurlow St,<br>Vancouver, BC V6E 0C5</td>
             </tr>
           </table>
         </td>
       </tr>
       <tr>
         <td colspan="3" class="land-cell" style="padding-top:14px;">
-          <div style="border-top:1px solid #15503b;margin-bottom:9px;font-size:0;">&nbsp;</div>
+          <div style="height:1.5px;background-color:#15503b;margin-bottom:9px;font-size:0;line-height:0;"><div style="border-top:1px solid #15503b;margin-bottom:9px;font-size:0;">&nbsp;</div>nbsp;</div>
           <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#888888;font-style:italic;margin:0;line-height:1.5;">We are located on the unceded territory of the xʷməθkʷəy̓əm (Musqueam), Sᵫwx̱wú7mesh (Squamish), and səlilwətaɬ (Tsleil-Waututh) peoples.</p>
         </td>
       </tr>
@@ -207,9 +207,9 @@
   <p class="copy-hint">&#8593; select, copy, paste into Gmail</p>
   <p class="person-label">Christine Robertson</p>
   <div class="sig-wrapper">
-    <table cellpadding="0" cellspacing="0" border="0" class="sig-table" style="border-collapse:collapse;font-family:Arial,Helvetica,sans-serif;">
+    <table cellpadding="0" cellspacing="0" border="0" class="sig-table" style="border-collapse:collapse;font-family:Arial,Helvetica,sans-serif;table-layout:fixed;width:100%;">
       <tr>
-        <td class="sig-name-col" style="padding-right:20px;vertical-align:middle;white-space:nowrap;">
+        <td class="sig-name-col" style="width:140px;padding-right:20px;vertical-align:middle;word-break:break-word;">
           <p style="margin:0 0 3px 0;font-size:15px;font-weight:bold;color:#1a1a1a;">Christine Robertson</p>
           <p style="margin:0;font-size:12px;color:#666666;line-height:1.4;">Operations Manager</p>
         </td>
@@ -230,7 +230,7 @@
             </tr>
             <tr>
               <td style="padding:4px 9px 4px 0;vertical-align:middle;"><img src="data:image/png;base64,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" width="14" height="14" alt="" style="display:block;"></td>
-              <td style="padding:4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#1a1a1a;">2150, 745 Thurlow St, Vancouver, BC V6E 0C5</td>
+              <td style="padding:4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#1a1a1a;">2150, 745 Thurlow St,<br>Vancouver, BC V6E 0C5</td>
             </tr>
           </table>
         </td>
